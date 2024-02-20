@@ -39,11 +39,16 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
+    createCollectable("steve", 200, 170, 6, 0.7); //your example function call
+
     // TODO 1
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
+    createPlatform(500, 300, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+    createPlatform(800, 600, 300, 30);
+    createPlatform()
 
 
     
