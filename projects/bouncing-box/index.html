@@ -175,10 +175,15 @@
          */
          function handleBoxClick() {
              // your code to increase the points vairable by 1
-             positionX = positionX + speed;
-             speed += speed + 3;
+             positionX = 0;
+            
              points = points + 1;
                  changeBoxText(points);
+                 if(speed >0){
+                    speed = speed + 3
+                 } else {
+                    speed = speed - 3
+                 }
 
 
 
